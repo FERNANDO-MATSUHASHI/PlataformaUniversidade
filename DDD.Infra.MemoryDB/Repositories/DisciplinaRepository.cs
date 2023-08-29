@@ -11,40 +11,64 @@ namespace DDD.Infra.MemoryDB.Repositories
 {
     public class DisciplinaRepository : IDisciplinaRepository
     {
-        public DisciplinaRepository()
+        private readonly APIContext _context;
+
+        // Dependency Injection
+        public DisciplinaRepository(APIContext context)
         {
-            using (var context = new APIContext())
-            {
-                var disciplinas = new List<Disciplina>()
-                {
-                    new Disciplina
-                    {
-                        Nome = "Programação I",
-                        Disponivel = true,
-                        Valor = 100,
-                        Ead = true                
-                    },
-                    new Disciplina
-                    {
-                        Nome = "Banco de Dados",
-                        Disponivel = false,
-                        Valor = 100,
-                        Ead = true
-                    }
-                };
-
-                context.Disciplinas.AddRange(disciplinas);
-                context.SaveChanges();
-            }
-        }
-
+            _context = context;
+        }        
         public List<Disciplina> GetDisciplina()
         {
             using (var context = new APIContext())
             {
-                var list = context.Disciplinas.ToList();
+                var list = _context.Disciplinas.ToList();
                 return list;
             }
         }
+        public Disciplina GetDisciplinaById(int id)
+        {
+            return _context.Disciplinas.Find(id);
+        }
+        public void InsertDisciplina(Disciplina disciplina)
+        {
+            try
+            {
+                _context.Disciplinas.Add(disciplina);
+                _context.SaveChanges();
+            }
+            catch (Exception)
+            {
+                // LOG
+                throw;
+            }
+        }
+        public void UpdateDIsciplina(Disciplina disciplina)
+        {
+            try
+            {
+                _context.Entry(disciplina).State = EntityState.Modified;
+                _context.SaveChanges();
+            }
+            catch (Exception)
+            {
+                // LOG
+                throw;
+            }
+        }
+        public void DeleteDisciplina(Disciplina disciplina)
+        {
+            try
+            {
+                _context.Set<Disciplina>().Remove(disciplina);
+                _context.SaveChanges();
+            }
+            catch (Exception)
+            {
+                // LOG
+                throw;
+            }
+        }
+
     }
 }
