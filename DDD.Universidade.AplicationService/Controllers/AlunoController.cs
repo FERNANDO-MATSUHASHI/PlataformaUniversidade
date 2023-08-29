@@ -2,6 +2,8 @@
 using DDD.Unimar.Domain.Entities;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore.Diagnostics;
+using Microsoft.EntityFrameworkCore.Update.Internal;
 
 namespace DDD.Universidade.AplicationService.Controllers
 {
@@ -37,6 +39,44 @@ namespace DDD.Universidade.AplicationService.Controllers
             }
             _alunoRepository.InsertAluno(aluno);
             return CreatedAtAction(nameof(GetById), new {Id = aluno.Id}, aluno);
+        }
+
+        [HttpPut]
+        public ActionResult<Aluno> UpdateAluno(Aluno aluno)
+        {
+            try
+            {
+                if (aluno == null)
+                {
+                    return BadRequest();
+                }
+                _alunoRepository.UpdateAluno(aluno);
+                return Ok("Aluno Alterado com sucesso");
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+        }
+
+        [HttpDelete]
+        public ActionResult Delete([FromBody] Aluno aluno)
+        {
+            try
+            {
+                if (aluno == null)
+                {
+                    return BadRequest();
+                }
+                _alunoRepository.DeleteAluno(aluno);
+                return Ok("Aluno deletado com sucesso");
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
         }
     }
 }
