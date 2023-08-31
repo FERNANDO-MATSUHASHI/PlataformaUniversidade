@@ -22,6 +22,7 @@ namespace DDD.Unimar.Domain.Entities
 
         [NotMapped]
         public bool Ativo { get; set; }
+
         public List<Disciplina> Disciplinas { get; set; }
 
         [NotMapped]
