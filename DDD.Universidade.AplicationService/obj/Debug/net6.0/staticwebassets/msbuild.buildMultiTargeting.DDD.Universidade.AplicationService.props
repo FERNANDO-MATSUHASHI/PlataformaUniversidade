@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\DDD.Universidade.AplicationService.props" />
+</Project>
