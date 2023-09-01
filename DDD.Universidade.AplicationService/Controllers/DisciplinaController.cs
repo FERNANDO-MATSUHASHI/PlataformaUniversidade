@@ -21,6 +21,7 @@ namespace DDD.Universidade.AplicationService.Controllers
         {
             return Ok(_disciplinaRepository.GetDisciplina());
         }
+
         [HttpGet("{id}")]
         public ActionResult<Disciplina> GetById(int id)
         {

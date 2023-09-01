@@ -16,14 +16,14 @@ namespace DDD.Universidade.AplicationService.Controllers
         {
             _alunoRepository = alunoRepository;
         }
-
+        
         [HttpGet]
         public ActionResult<List<Aluno>> Get()
         {
             return Ok(_alunoRepository.GetAlunos());
         }
 
-        [HttpGet("{id}")]
+        [HttpGet("{id}")]        
         public ActionResult<Aluno> GetById(int id)
         {
             return Ok(_alunoRepository.GetAlunoById(id));
