@@ -14,7 +14,7 @@ namespace DDD.Infra.MemoryDB
 
         public DbSet<Disciplina> Disciplinas { get; set; }
 
-        //public DbSet<AlunoDisciplina> AlunoDisciplina { get; set; }
+        public DbSet<AlunoDisciplina> AlunoDisciplina { get; set; }
 
 
     }
