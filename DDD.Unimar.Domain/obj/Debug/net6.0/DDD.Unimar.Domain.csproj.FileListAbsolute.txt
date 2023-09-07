@@ -31,3 +31,15 @@ C:\Users\matsu\Documents\4º Termo\Linguagem de Programação II\PlataformaUnive
 C:\Users\matsu\Documents\4º Termo\Linguagem de Programação II\PlataformaUniversidade - Original\DDD.Unimar.Domain\obj\Debug\net6.0\refint\DDD.Unimar.Domain.dll
 C:\Users\matsu\Documents\4º Termo\Linguagem de Programação II\PlataformaUniversidade - Original\DDD.Unimar.Domain\obj\Debug\net6.0\DDD.Unimar.Domain.pdb
 C:\Users\matsu\Documents\4º Termo\Linguagem de Programação II\PlataformaUniversidade - Original\DDD.Unimar.Domain\obj\Debug\net6.0\ref\DDD.Unimar.Domain.dll
+C:\Users\Aula\Documents\Linguagem de Programação II\PlataformaUniversidade1\PlataformaUniversidade\DDD.Unimar.Domain\bin\Debug\net6.0\DDD.Unimar.Domain.deps.json
+C:\Users\Aula\Documents\Linguagem de Programação II\PlataformaUniversidade1\PlataformaUniversidade\DDD.Unimar.Domain\bin\Debug\net6.0\DDD.Unimar.Domain.dll
+C:\Users\Aula\Documents\Linguagem de Programação II\PlataformaUniversidade1\PlataformaUniversidade\DDD.Unimar.Domain\bin\Debug\net6.0\DDD.Unimar.Domain.pdb
+C:\Users\Aula\Documents\Linguagem de Programação II\PlataformaUniversidade1\PlataformaUniversidade\DDD.Unimar.Domain\obj\Debug\net6.0\DDD.Unimar.Domain.csproj.AssemblyReference.cache
+C:\Users\Aula\Documents\Linguagem de Programação II\PlataformaUniversidade1\PlataformaUniversidade\DDD.Unimar.Domain\obj\Debug\net6.0\DDD.Unimar.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aula\Documents\Linguagem de Programação II\PlataformaUniversidade1\PlataformaUniversidade\DDD.Unimar.Domain\obj\Debug\net6.0\DDD.Unimar.Domain.AssemblyInfoInputs.cache
+C:\Users\Aula\Documents\Linguagem de Programação II\PlataformaUniversidade1\PlataformaUniversidade\DDD.Unimar.Domain\obj\Debug\net6.0\DDD.Unimar.Domain.AssemblyInfo.cs
+C:\Users\Aula\Documents\Linguagem de Programação II\PlataformaUniversidade1\PlataformaUniversidade\DDD.Unimar.Domain\obj\Debug\net6.0\DDD.Unimar.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Aula\Documents\Linguagem de Programação II\PlataformaUniversidade1\PlataformaUniversidade\DDD.Unimar.Domain\obj\Debug\net6.0\DDD.Unimar.Domain.dll
+C:\Users\Aula\Documents\Linguagem de Programação II\PlataformaUniversidade1\PlataformaUniversidade\DDD.Unimar.Domain\obj\Debug\net6.0\refint\DDD.Unimar.Domain.dll
+C:\Users\Aula\Documents\Linguagem de Programação II\PlataformaUniversidade1\PlataformaUniversidade\DDD.Unimar.Domain\obj\Debug\net6.0\DDD.Unimar.Domain.pdb
+C:\Users\Aula\Documents\Linguagem de Programação II\PlataformaUniversidade1\PlataformaUniversidade\DDD.Unimar.Domain\obj\Debug\net6.0\ref\DDD.Unimar.Domain.dll
