@@ -9,6 +9,7 @@ var builder = WebApplication.CreateBuilder(args);
 //IOC (Inversion of Control) - Dependency Injection
 //builder.Services.AddScoped<IAlunoRepository, AlunoRepository>();
 builder.Services.AddScoped<IAlunoRepository, AlunoRepositorySqlServer>();
+builder.Services.AddScoped<IProfessorRepository, ProfessorRepositorySqlServer>();
 builder.Services.AddScoped<SqlServerContext, SqlServerContext>();
 // builder.Services.AddScoped<IDisciplinaRepository, DisciplinaRepository>();
 

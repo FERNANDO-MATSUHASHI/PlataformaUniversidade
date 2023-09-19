@@ -3274,23 +3274,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Aula\\.nuget\\packages\\": {},
+    "C:\\Users\\matsu\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Aula\\Documents\\Linguagem de Programação II\\PlataformaUniversidade1\\PlataformaUniversidade\\DDD.Infra.MemoryDB\\DDD.Infra.MemoryDB.csproj",
+      "projectUniqueName": "C:\\Users\\matsu\\Documents\\4º Termo\\Linguagem de Programação II\\PlataformaUniversidadeDB-Professor\\DDD.Infra.MemoryDB\\DDD.Infra.MemoryDB.csproj",
       "projectName": "DDD.Infra.MemoryDB",
-      "projectPath": "C:\\Users\\Aula\\Documents\\Linguagem de Programação II\\PlataformaUniversidade1\\PlataformaUniversidade\\DDD.Infra.MemoryDB\\DDD.Infra.MemoryDB.csproj",
-      "packagesPath": "C:\\Users\\Aula\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Aula\\Documents\\Linguagem de Programação II\\PlataformaUniversidade1\\PlataformaUniversidade\\DDD.Infra.MemoryDB\\obj\\",
+      "projectPath": "C:\\Users\\matsu\\Documents\\4º Termo\\Linguagem de Programação II\\PlataformaUniversidadeDB-Professor\\DDD.Infra.MemoryDB\\DDD.Infra.MemoryDB.csproj",
+      "packagesPath": "C:\\Users\\matsu\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\matsu\\Documents\\4º Termo\\Linguagem de Programação II\\PlataformaUniversidadeDB-Professor\\DDD.Infra.MemoryDB\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Aula\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\matsu\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -3299,14 +3299,15 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Aula\\Documents\\Linguagem de Programação II\\PlataformaUniversidade1\\PlataformaUniversidade\\DDD.Unimar.Domain\\DDD.Unimar.Domain.csproj": {
-              "projectPath": "C:\\Users\\Aula\\Documents\\Linguagem de Programação II\\PlataformaUniversidade1\\PlataformaUniversidade\\DDD.Unimar.Domain\\DDD.Unimar.Domain.csproj"
+            "C:\\Users\\matsu\\Documents\\4º Termo\\Linguagem de Programação II\\PlataformaUniversidadeDB-Professor\\DDD.Unimar.Domain\\DDD.Unimar.Domain.csproj": {
+              "projectPath": "C:\\Users\\matsu\\Documents\\4º Termo\\Linguagem de Programação II\\PlataformaUniversidadeDB-Professor\\DDD.Unimar.Domain\\DDD.Unimar.Domain.csproj"
             }
           }
         }
@@ -3350,7 +3351,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }

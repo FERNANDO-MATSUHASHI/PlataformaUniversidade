@@ -15,3 +15,20 @@ C:\Users\Aula\Documents\Linguagem de Programação II\PlataformaUniversidade1\Pl
 C:\Users\Aula\Documents\Linguagem de Programação II\PlataformaUniversidade1\PlataformaUniversidade\DDD.Infra.SqlServerFisico\obj\Debug\net6.0\DDD.Infra.SqlServerFisico.csproj.CopyComplete
 C:\Users\Aula\Documents\Linguagem de Programação II\PlataformaUniversidade1\PlataformaUniversidade\DDD.Infra.SqlServerFisico\bin\Debug\net6.0\DDD.Infra.SqlServerFisico.runtimeconfig.json
 C:\Users\Aula\Documents\Linguagem de Programação II\PlataformaUniversidade1\PlataformaUniversidade\DDD.Infra.SqlServerFisico\obj\Debug\net6.0\DDD.Infra.SqlServerFisico.genruntimeconfig.cache
+C:\Users\matsu\Documents\4º Termo\Linguagem de Programação II\PlataformaUniversidadeDB-Professor\DDD.Infra.SqlServerFisico\bin\Debug\net6.0\DDD.Infra.SqlServerFisico.deps.json
+C:\Users\matsu\Documents\4º Termo\Linguagem de Programação II\PlataformaUniversidadeDB-Professor\DDD.Infra.SqlServerFisico\bin\Debug\net6.0\DDD.Infra.SqlServerFisico.runtimeconfig.json
+C:\Users\matsu\Documents\4º Termo\Linguagem de Programação II\PlataformaUniversidadeDB-Professor\DDD.Infra.SqlServerFisico\bin\Debug\net6.0\DDD.Infra.SqlServerFisico.dll
+C:\Users\matsu\Documents\4º Termo\Linguagem de Programação II\PlataformaUniversidadeDB-Professor\DDD.Infra.SqlServerFisico\bin\Debug\net6.0\DDD.Infra.SqlServerFisico.pdb
+C:\Users\matsu\Documents\4º Termo\Linguagem de Programação II\PlataformaUniversidadeDB-Professor\DDD.Infra.SqlServerFisico\bin\Debug\net6.0\DDD.Unimar.Domain.dll
+C:\Users\matsu\Documents\4º Termo\Linguagem de Programação II\PlataformaUniversidadeDB-Professor\DDD.Infra.SqlServerFisico\bin\Debug\net6.0\DDD.Unimar.Domain.pdb
+C:\Users\matsu\Documents\4º Termo\Linguagem de Programação II\PlataformaUniversidadeDB-Professor\DDD.Infra.SqlServerFisico\obj\Debug\net6.0\DDD.Infra.SqlServerFisico.csproj.AssemblyReference.cache
+C:\Users\matsu\Documents\4º Termo\Linguagem de Programação II\PlataformaUniversidadeDB-Professor\DDD.Infra.SqlServerFisico\obj\Debug\net6.0\DDD.Infra.SqlServerFisico.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\matsu\Documents\4º Termo\Linguagem de Programação II\PlataformaUniversidadeDB-Professor\DDD.Infra.SqlServerFisico\obj\Debug\net6.0\DDD.Infra.SqlServerFisico.AssemblyInfoInputs.cache
+C:\Users\matsu\Documents\4º Termo\Linguagem de Programação II\PlataformaUniversidadeDB-Professor\DDD.Infra.SqlServerFisico\obj\Debug\net6.0\DDD.Infra.SqlServerFisico.AssemblyInfo.cs
+C:\Users\matsu\Documents\4º Termo\Linguagem de Programação II\PlataformaUniversidadeDB-Professor\DDD.Infra.SqlServerFisico\obj\Debug\net6.0\DDD.Infra.SqlServerFisico.csproj.CoreCompileInputs.cache
+C:\Users\matsu\Documents\4º Termo\Linguagem de Programação II\PlataformaUniversidadeDB-Professor\DDD.Infra.SqlServerFisico\obj\Debug\net6.0\DDD.Infra.SqlServerFisico.csproj.CopyComplete
+C:\Users\matsu\Documents\4º Termo\Linguagem de Programação II\PlataformaUniversidadeDB-Professor\DDD.Infra.SqlServerFisico\obj\Debug\net6.0\DDD.Infra.SqlServerFisico.dll
+C:\Users\matsu\Documents\4º Termo\Linguagem de Programação II\PlataformaUniversidadeDB-Professor\DDD.Infra.SqlServerFisico\obj\Debug\net6.0\refint\DDD.Infra.SqlServerFisico.dll
+C:\Users\matsu\Documents\4º Termo\Linguagem de Programação II\PlataformaUniversidadeDB-Professor\DDD.Infra.SqlServerFisico\obj\Debug\net6.0\DDD.Infra.SqlServerFisico.pdb
+C:\Users\matsu\Documents\4º Termo\Linguagem de Programação II\PlataformaUniversidadeDB-Professor\DDD.Infra.SqlServerFisico\obj\Debug\net6.0\DDD.Infra.SqlServerFisico.genruntimeconfig.cache
+C:\Users\matsu\Documents\4º Termo\Linguagem de Programação II\PlataformaUniversidadeDB-Professor\DDD.Infra.SqlServerFisico\obj\Debug\net6.0\ref\DDD.Infra.SqlServerFisico.dll
