@@ -1,5 +1,5 @@
 ﻿using DDD.Infra.MemoryDB.Interfaces;
-using DDD.Unimar.Domain.Entities;
+using DDD.Unimar.Domain.SecretariaContext;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;

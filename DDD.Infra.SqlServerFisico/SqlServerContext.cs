@@ -1,4 +1,4 @@
-﻿using DDD.Unimar.Domain.Entities;
+﻿using DDD.Unimar.Domain.SecretariaContext;
 using Microsoft.EntityFrameworkCore;
 
 namespace DDD.Infra.SqlServerFisico
@@ -10,8 +10,14 @@ namespace DDD.Infra.SqlServerFisico
             optionsBuilder.UseSqlServer("Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=UniversidadeDb");
         }
 
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<Matricula>().HasKey(m => new { m.AlunoId, m.DisciplicaId });
+        }
+
         public DbSet<Aluno> Alunos { get; set; }
         public DbSet<Disciplina> Disciplinas { get; set; }
         public DbSet<Professor> Professores { get; set; }
+
     }
 }

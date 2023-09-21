@@ -1,21 +1,18 @@
-﻿using DDD.Unimar.Domain.ValueObjects;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DDD.Unimar.Domain.Entities
+namespace DDD.Unimar.Domain.UserManagementContext
 {
-    public class Aluno
+    public abstract class User
     {
-        [Required]
         public int Id { get; set; }
-        [Required]
+
         public string Nome { get; set; }
-        [Required]
+
         public string Sobrenome { get; set; }
 
         public string Email { get; set; }
@@ -24,10 +21,7 @@ namespace DDD.Unimar.Domain.Entities
 
         public bool Ativo { get; set; }
 
-        public List<Disciplina> Disciplinas { get; set; }
-
-        [NotMapped]
-        public List<Endereco>? Enderecos { get; set; }
-
+        public string Login { get; set; }
+        public string Password { get; set; }
     }
 }

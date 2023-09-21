@@ -1,5 +1,5 @@
 ﻿using DDD.Infra.SqlServerFisico.Interfaces;
-using DDD.Unimar.Domain.Entities;
+using DDD.Unimar.Domain.SecretariaContext;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 

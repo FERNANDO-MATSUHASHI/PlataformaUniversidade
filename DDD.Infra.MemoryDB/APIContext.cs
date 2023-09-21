@@ -1,4 +1,4 @@
-﻿using DDD.Unimar.Domain.Entities;
+﻿using DDD.Unimar.Domain.SecretariaContext;
 using Microsoft.EntityFrameworkCore;
 
 namespace DDD.Infra.MemoryDB
@@ -13,9 +13,5 @@ namespace DDD.Infra.MemoryDB
         public DbSet<Aluno> Alunos { get; set; }
 
         public DbSet<Disciplina> Disciplinas { get; set; }
-
-        public DbSet<AlunoDisciplina> AlunoDisciplina { get; set; }
-
-
     }
 }
