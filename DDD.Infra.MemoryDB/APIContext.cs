@@ -1,4 +1,4 @@
-﻿using DDD.Unimar.Domain.Entities;
+﻿using DDD.Unimar.Domain.SecretariaContext;
 using Microsoft.EntityFrameworkCore;
 
 namespace DDD.Infra.MemoryDB

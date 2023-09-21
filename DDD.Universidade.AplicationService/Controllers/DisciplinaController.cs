@@ -1,6 +1,6 @@
 ﻿using DDD.Infra.MemoryDB.Interfaces;
 using DDD.Infra.MemoryDB.Repositories;
-using DDD.Unimar.Domain.Entities;
+using DDD.Unimar.Domain.SecretariaContext;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 

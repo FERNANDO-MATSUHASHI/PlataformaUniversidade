@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DDD.Unimar.Domain.Entities
+namespace DDD.Unimar.Domain.SecretariaContext
 {
     public class Disciplina
     {
@@ -16,5 +16,6 @@ namespace DDD.Unimar.Domain.Entities
         public decimal Valor { get; set; }
         public bool Disponivel { get; set; }
         public bool Ead { get; set; }
+        public IList<Matricula> Matriculas { get; set; }
     }
 }

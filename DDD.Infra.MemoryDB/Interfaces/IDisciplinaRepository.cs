@@ -1,4 +1,4 @@
-﻿using DDD.Unimar.Domain.Entities;
+﻿using DDD.Unimar.Domain.SecretariaContext;
 using System;
 using System.Collections.Generic;
 using System.Linq;
