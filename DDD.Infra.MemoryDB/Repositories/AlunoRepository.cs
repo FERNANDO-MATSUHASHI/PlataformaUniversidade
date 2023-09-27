@@ -20,7 +20,7 @@ namespace DDD.Infra.MemoryDB.Repositories
         }
         public List<Aluno> GetAlunos()
         {
-            var list = _context.Alunos.Include(x => x.Disciplinas).ToList();
+            var list = _context.Alunos.ToList();
             return list;
         }
         public Aluno GetAlunoById(int id)
